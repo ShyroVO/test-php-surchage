@@ -9,3 +9,6 @@ echo "<br><br>";
 
 $admin = new Admin('Truc');
 echo $admin->generateCode();
+
+$admin->display();
+echo $admin;

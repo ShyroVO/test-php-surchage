@@ -17,4 +17,9 @@ class Admin extends User {
         echo "<p>".Admin::TEST."</p>";
     }
 
+    public function getPseudo(): string {
+        return "UnTruc " . parent::getPseudo();
+    }
+
+
 }
