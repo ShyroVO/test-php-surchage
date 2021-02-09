@@ -7,8 +7,7 @@ echo $user->generateCode();
 
 echo "<br><br>";
 
-$admin = new Admin('Truc');
-echo $admin->generateCode();
+$admin1 = new Admin('Truc');
+$admin2 = new Admin('Poop');
 
-$admin->display();
-echo $admin;
+echo Admin::getInstanceCount();
